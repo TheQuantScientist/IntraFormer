@@ -6,6 +6,8 @@
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License: MIT">
 </p>
 
+![Model Architecture](graphs/IntraFormer.png)
+
 **IntraFormer** is a lightweight, channel-first transformer architecture designed specifically for **next-day closing price prediction** on daily equity data (OHLCV).
 
 Instead of treating time steps as the sequence (common in most time-series transformers), IntraFormer **treats the OHLCV channels as the sequence** and projects the time dimension — a design choice that has shown surprisingly strong empirical performance on individual stock prediction tasks.
